@@ -1,0 +1,4 @@
+case,latitude_1,longitude_1,latitude_2,longitude_2,radius_metres,expected_distance_metres,tolerance_metres
+equator_one_degree,0,0,0,1,6371008.8,111195.0802335,0.001
+quarter_meridian,0,0,90,0,6371008.8,10007557.221018,0.001
+

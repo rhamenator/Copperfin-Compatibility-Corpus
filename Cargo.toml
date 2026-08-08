@@ -1,0 +1,20 @@
+[package]
+name = "copperfin-compatibility-corpus"
+version = "0.1.0"
+edition = "2024"
+description = "Correct reference algorithms and VFP compatibility fixtures recovered from legacy utility and network-matching code"
+publish = false
+
+[lib]
+name = "copperfin_compatibility_corpus"
+path = "src/lib.rs"
+
+[[bin]]
+name = "corpus-runner"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = "symbols"
+

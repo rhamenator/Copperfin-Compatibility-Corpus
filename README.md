@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="Copperfin Compatibility Corpus logo" width="220">
+</p>
+
 # Copperfin Compatibility Corpus
 
 This repository turns useful ideas from the old `MATCHPRG` network tools and
